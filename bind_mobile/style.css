@@ -1,0 +1,34 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+    width: 300%;
+    height: 100%;
+    transition: transform 0.1s ease;
+  }
+  
+  .image {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+  }
+  
+  #page1 {
+    background-color: #f0f0f0;
+  }
+  
+  #page2 {
+    background-color: #c0c0c0;
+  }
+  
+  #page3 {
+    background-color: #909090;
+  }
+  
